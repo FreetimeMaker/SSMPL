@@ -80,13 +80,13 @@ Bootstrap Demo:<br/>
 
 <p>
 
-2.0 - (IDE) Open the `src/fr.ezzud.defaultlauncher/functions.java` file<br />
+2.0 - (IDE) Open the `src/com.freetime.defaultlauncher/functions.java` file<br />
 2.1 - (IDE) Edit your website url, appdata name, launcher name etc...<br />
 2.2 - (IDE) Edit messages as you want<br />
 2.3 - (IDE) Replace `https://yourwebsite.com/supdate/` by your website url where the s-update server will be hosted (Example: https://site.com/supdate/)<br />
 💡 You can store s-update server in a folder on your website, so add the folder in your URL<br />
-2.4 - (MISC) Change textures in `fr.ezzud.defaultlauncher.resources` if you want to edit textures<br />
-2.5 - (IDE) Open the `src/fr.ezzud.defaultlauncher/Main.java` file<br /><br />
+2.4 - (MISC) Change textures in `com.freetime.defaultlauncher.resources` if you want to edit textures<br />
+2.5 - (IDE) Open the `src/com.freetime.defaultlauncher/Main.java` file<br /><br />
 2.6 - (IDE) At line 30, Change your Minecraft Game version:<br />
 📢 **FOR 1.7.10**: ![image](https://user-images.githubusercontent.com/44119886/188249478-bf22ceeb-5f90-47e4-9dcc-dc2720e6d366.png)<br />
 📢 **FOR 1.8 TO 1.12**: ![image](https://user-images.githubusercontent.com/44119886/188249487-4c8b31fe-f704-43d7-931e-ae2d28b5ad55.png)<br />
@@ -112,7 +112,7 @@ Bootstrap Demo:<br/>
 3.3 - (WEB) Access to the S-Update panel with `https://your-url.com/supdate`<br />
   ⚠ If you get 404 error, go on `https://your-url.com/supdate/index.php/`<br />
   ⚠ If after registering, you didn't get redirected, verify permission (Debian: `chmod -R 777 /var/www/html/supdate`)<br />
-  ⚠ If you cannot setup password, go on <a href="https://ezzud.fr/download/server.json">this link</a> and paste content into `https://your-url.com/supdate/config/server.json`<br />
+  ⚠ If you cannot setup password, go on <a href="https://ezzud.com/download/server.json">this link</a> and paste content into `https://your-url.com/supdate/config/server.json`<br />
 3.4 - (WEB) Create admin credentials (to reset, delete file **server.json** at update/config/)<br />
 3.5 - (WEB) Enable S-Update by clicking on the circle (if it is already green, he is already activated) <br />
 3.6 - (MISC) Go on your **Appdata/Roaming/.minecraft/version** folder<br />
@@ -131,7 +131,7 @@ Bootstrap Demo:<br/>
 ⚠ **YOU NEED TO RENAME "libraries" FOLDER TO "libs"**<br />
 ⚠ **YOU NEED TO RENAME "bin" FOLDER TO "natives"**<br />
 ⚠ **If you don't have "bin" folder**, try to delete the bin folder and launch your Minecraft with the correct forge version<br />
-Also you can download 1.12.2 Minecraft natives <a href="https://ezzud.fr/download/1.12.2-natives.zip">here</a><br /><br />
+Also you can download 1.12.2 Minecraft natives <a href="https://ezzud.com/download/1.12.2-natives.zip">here</a><br /><br />
   
 3.12 - (FTP) Place all selected files into the **files** folder in the S-UPDATE
 
@@ -166,12 +166,12 @@ Also you can download 1.12.2 Minecraft natives <a href="https://ezzud.fr/downloa
 <p>
 
 4.0 - (IDE) Open or Import **bootstrap** project in your Java IDE <br />
-4.1 - (IDE) Open the `src/fr.ezzud.defaultbootstrap/functions.java` file<br />
+4.1 - (IDE) Open the `src/com.freetime.defaultbootstrap/functions.java` file<br />
 4.2 - (IDE) Edit the file with your informations<br />
 4.3 - (IDE) Replace supdate URL by your supdate url with **/bootstrap** after the url<br />(Example: https://yourwebsite.com/supdate/bootstrap/)<br>
   ⚠ If you get 404 error, go on `https://example.com/supdate/bootstrap/index.php/`<br />
   ⚠ If after registering, you didn't get redirected, verify permission (Debian: `chmod -R 777 /var/www/html/supdate`)<br />
-  ⚠ If you cannot setup password, go on <a href="https://ezzud.fr/download/server.json">this link</a> and paste content into `https://your-url.com/supdate/bootstrap/config/server.json`<br />
+  ⚠ If you cannot setup password, go on <a href="https://ezzud.com/download/server.json">this link</a> and paste content into `https://your-url.com/supdate/bootstrap/config/server.json`<br />
 4.4 - (IDE) Extract the project as a JAR Executable and name it `bootstrap.jar` (not important)<br />
 
 4.5 - (FTP) **In the S-Update folder**, create a new folder named `bootstrap`<br />
@@ -183,4 +183,4 @@ Also you can download 1.12.2 Minecraft natives <a href="https://ezzud.fr/downloa
 
 </p>
 
-<h1>❓ For any help, join my discord at https://ezzud.fr/discord</h1>
+<h1>❓ For any help, join my discord at https://ezzud.com/discord</h1>
